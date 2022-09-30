@@ -13,18 +13,7 @@ with open('Data\Data.json', 'r') as f:
 
 # Output: {'name': 'Bob'}
 Name = (Data_JSON)
-# Name = (Data_JSON[0]['name'])
-#iman = int(Name[2]['price'])
 
-#for iman in Name:
-#      print(iman)
-#     print(iman['name'])
-#      print(iman['price'])
-#      total= iman
-
-#      print(total)
-
-#print(Name)
 
 
 custAttribute = rt.execute(f'''
@@ -64,15 +53,7 @@ def make_sphere():
     for iman in Name:
         node=rt.Sphere(name= iman['name'],radius= iman['price'], segments= 32)
         print(node)
-         
-         
-  
-def apply_bend_to_mesh(): 
-    for iman in Name:
-        bend= rt.bend(name='Bend iman')
-        bend.bendAngle = 0
-        rt.addModifier(node, bend)
-            
+               
  
 def make_text():
     for iman in Name:

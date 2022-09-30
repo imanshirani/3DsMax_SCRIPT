@@ -88,8 +88,8 @@ def make_text():
         rt.addModifier(textp, dataset)  
         
         Bevel= rt.Bevel_Profile()
-        Bevel.Beveling = "Two step"
-        Bevel.Extrude = '23'
+        Bevel.ExtrudeAmount = dataset._Price
+        Bevel.Extrudesegments= 10
         
         rt.addModifier(textp, Bevel)
 	

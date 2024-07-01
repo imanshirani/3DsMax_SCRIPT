@@ -1,5 +1,5 @@
 '''
-An example of how to get deta From Json and add to Dummy 
+An example of how to get deta From Json and add to Dummy By iman shirani
 '''
 
 import pymxs

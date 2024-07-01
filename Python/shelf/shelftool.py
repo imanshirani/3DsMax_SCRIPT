@@ -1,4 +1,4 @@
-#iman shirani shelf tool GUI with PySide6 for 3ds max  
+#shelf tool GUI with PySide6 for 3ds max By iman shirani  
 import sys
 from PySide6.QtWidgets import QApplication, QMainWindow, QToolBar, QWidget, QVBoxLayout, QTabWidget, QDockWidget, QLineEdit, QPushButton, QHBoxLayout, QDialog, QLabel, QMenu
 from PySide6.QtGui import QIcon, QAction
